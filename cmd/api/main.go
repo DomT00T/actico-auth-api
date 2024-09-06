@@ -1,16 +1,14 @@
 package main
 
 import (
-	"log"
-
-	"github.com/gin-gonic/gin"
-	swaggerFiles "github.com/swaggo/files"
-	ginSwagger "github.com/swaggo/gin-swagger"
-	_ "github.com/DomT00T/actico-auth-api/docs"
-	"github.com/DomT00T/actico-auth-api/internal/config"
-	"github.com/DomT00T/actico-auth-api/internal/database"
-	"github.com/DomT00T/actico-auth-api/internal/handlers"
-	"github.com/DomT00T/actico-auth-api/internal/middlewares"
+    "github.com/gin-gonic/gin"
+    swaggerFiles "github.com/swaggo/files"
+    ginSwagger "github.com/swaggo/gin-swagger"
+    _ "github.com/DomT00T/actico-auth-api/cmd/api/docs"
+    "github.com/DomT00T/actico-auth-api/internal/config"
+    "github.com/DomT00T/actico-auth-api/internal/database"
+    "github.com/DomT00T/actico-auth-api/internal/handlers"
+    "github.com/DomT00T/actico-auth-api/internal/middlewares"
 )
 
 

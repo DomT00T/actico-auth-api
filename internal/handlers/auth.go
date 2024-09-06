@@ -1,14 +1,17 @@
 package handlers
 
 import (
-	"database/sql"
-	"net/http"
-	"time"
-	"github.com/gin-gonic/gin"
-	"github.com/DomT00T/actico-auth-api/internal/auth"
-	"github.com/DomT00T/actico-auth-api/internal/models"
-	"github.com/DomT00T/actico-auth-api/pkg/utils"
+    "log"
+    "database/sql"
+    "net/http"
+    "time"
+
+    "github.com/gin-gonic/gin"
+    "github.com/DomT00T/actico-auth-api/internal/auth"
+    "github.com/DomT00T/actico-auth-api/internal/models"
+    "github.com/DomT00T/actico-auth-api/pkg/utils"
 )
+
 
 // Register godoc
 // @Summary Register a new user

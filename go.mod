@@ -1,11 +1,12 @@
-module artico-auth-api
+module github.com/DomT00T/actico-auth-api
 
 go 1.23
 
 require (
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/dgrijalva/jwt-go v0.0.0-00010101000000-000000000000
 	github.com/gin-gonic/gin v1.10.0
 	github.com/joho/godotenv v1.4.0
+	github.com/lib/pq v1.10.9
 	github.com/swaggo/files v0.0.0-20210815190702-a29dd2bc99b2
 	github.com/swaggo/gin-swagger v1.3.3
 	github.com/swaggo/swag v1.7.6
